@@ -57,14 +57,15 @@
   font-weight: 700;
 }
 .container {
+  height: 464px;
   width: 400px;
   max-width: 95%;
 }
 .container-register{
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
+
 .input {
   display: flex;
   flex-direction: column;
@@ -79,6 +80,7 @@
 }
 /* From uiverse.io */
 .btn-pers {
+  width: 150px;
   position: relative;
   left: 50%;
   padding: 1em 2.5em;
@@ -96,6 +98,7 @@
   outline: none;
   transform: translateX(-50%);
 }
+
 .btn-pers:hover {
   background-color: #198754;
   box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
